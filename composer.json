@@ -8,6 +8,12 @@
 		"Start-Bootstrap", "sb-admin-2",
 		"backend", "admin", "ui", "user-interface", "theme"
 	],
+	"repositories": [
+        	{
+            		"type": "vcs",
+            		"url": "https://github.com/spanov/yii2-p2y2-things"
+        	}
+    	],
 	"license": "MIT",
 	"authors": [
 		{
@@ -26,7 +32,7 @@
 
 	"require": {
 		"yiisoft/yii2": ">=2.0.6",
-		"p2made/yii2-p2y2-things": "v1.11.1",
+		"spanov/yii2-p2y2-things": "v1.11.1",
 		"p2made/yii2-p2y2-things-demo": "v1.11.1"
 	},
 	"autoload": {
